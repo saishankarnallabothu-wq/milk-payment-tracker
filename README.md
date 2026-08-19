@@ -1,17 +1,40 @@
-# milk_tracker_app
+# Milk Payment Tracker
+
+A Flutter application for managing customers, deliveries, bills, payments, and balances.
+## Features
+
+- Customer management
+- Daily milk delivery tracking
+- Bill calculation
+- Payment tracking
+- Balance calculation
+- Monthly reports
+
+## Flutter App
+
+Install Flutter, then run:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Existing FastAPI Backend
+
+The `milk_tracker/` directory contains the existing FastAPI backend.
+
+```bash
+uvicorn main:app --reload
+```
+
+## Tech Stack
+
+- Flutter and Dart
+- Python, FastAPI, and SQLite
+ # Milk Payment Tracker
 
 A new Flutter project.
 
-## Getting Started
-
+- Flutter and Dart
+- Python, FastAPI, and SQLite
 This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
